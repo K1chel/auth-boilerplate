@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import { AuthFooter, AuthHeader, SocialButtons } from "../_components";
+import { SignInForm } from "./sign-in-form";
 
 export const metadata: Metadata = {
   title: "Sign in",
@@ -14,7 +15,7 @@ const SignInPage = () => {
         description="Welcome back! Please sign in to continue"
       />
       <SocialButtons />
-      <p>sign in form</p>
+      <SignInForm />
       <AuthFooter
         title="Don't have an account?"
         hrefText="Sign up"

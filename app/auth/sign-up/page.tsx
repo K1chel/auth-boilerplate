@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import { AuthFooter, AuthHeader, SocialButtons } from "../_components";
+import { SignUpForm } from "./sign-up-form";
 
 export const metadata: Metadata = {
   title: "Sign up",
@@ -14,7 +15,7 @@ const SignUpPage = () => {
         description="Welcome! Please fill in the details to get started."
       />
       <SocialButtons />
-      <p>sign up form</p>
+      <SignUpForm />
       <AuthFooter
         title="Already have an account?"
         hrefText="Sign in"
